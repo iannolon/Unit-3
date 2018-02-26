@@ -1,3 +1,8 @@
 #IanNolon
 #1/26/18
-#stringLoopDemo.py
+#stringLoopDemo.py - how to use loops with strings
+
+name = input('Enter name: ')
+for ch in name:
+    print(ch*7)
+
