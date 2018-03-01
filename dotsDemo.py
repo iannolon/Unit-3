@@ -1,11 +1,10 @@
-
 #IanNolon
 #3/1/18
 #dotsDemo.py - how to use loops with graphics
 
 from ggame import *
 
-RADIUS = 2
+RADIUS = 25
 
 maroon = Color(0x800000,1)
 
