@@ -1,6 +1,6 @@
 #IanNolon
 #1/7/18
-#olympic.py
+#olympiq.py
 
 from ggame import *
 
@@ -25,6 +25,10 @@ blackCircle = CircleAsset(70,blackOutline,black)
 greenCircle = CircleAsset(70,greenOutline,green)
 redCircle = CircleAsset(70,redOutline,red)
 text = TextAsset('RUSSIA', fill = red, style = 'bold 40pt Times')
+blackBar = RectangleAsset(42,11,blackOutline,black)
+redBar = RectangleAsset(42,11,redOutline,red)
+yellowBar = RectangleAsset(42,11,yellowOutline,yellow)
+text2 = TextAsset('what am i doing with my life', fill = black, style = '10pt Times')
 
 Sprite(blueCircle,(70,60))
 Sprite(whiteCircle,(80,70))
@@ -36,7 +40,10 @@ Sprite(greenCircle,(220,140))
 Sprite(whiteCircle,(230,150))
 Sprite(redCircle,(270,60))
 Sprite(whiteCircle,(280,70))
-
+Sprite(blackBar,(900,450))
+Sprite(redBar,(900,460))
+Sprite(yellowBar,(900,470))
+Sprite(text2,(875,500))
 Sprite(text,(160,350))
 
 App().run()
